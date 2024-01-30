@@ -1,3 +1,8 @@
+*, *:before, *:after {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
 body {
     background-color: #695A77;
 }
@@ -40,16 +45,15 @@ img {
 }
 
 .title-text {
+    font-family: 'Anton', sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.odinProject {
-    padding: 20px;
-}
 
 .credit {
+    font-family: 'Anton', sans-serif;
     color: #ebebeb;
     position: absolute;
     bottom: 0;
@@ -57,18 +61,20 @@ img {
 }
 
 .credit a {
+    font-family: 'Anton', sans-serif;
     /* text-decoration: none; */
     color: #ebebeb;
 }
 
 .odinProject {
+    font-family: 'Anton', sans-serif;
     color: #ebebeb;
     font-size: 50px;
-    font-weight: 700;
-
+    padding: 20px;
 }
 
 .slogan-banner {
+    font-family: 'Anton', sans-serif;
     color: #ebebeb;
     font-size: 45px;
     text-align: center;
@@ -120,10 +126,11 @@ input:-webkit-autofill:focus,
 input:-internal-autofill-selected,
 input:-internal-autofill-previewed
  {
-    background: #a31a1a;
+    background: #a31a1a !important;
 }
 
 label{
+    font-family: 'Anton', sans-serif !important;
     display: block;
     padding-top: 10px !important;
     color: #ebebeb;
@@ -131,6 +138,8 @@ label{
 }
 
 input {
+    font-family: 'Anton', sans-serif;
+    
     border: none;
     border-color: #111;
     background: #cacaca2c;
@@ -144,6 +153,7 @@ input {
 }
 
 button {
+    font-family: 'Anton', sans-serif;
     border: none;
     border-radius: 40px;
     cursor: pointer;
@@ -159,6 +169,7 @@ button:hover {
 }
 
 .login {
+    font-family: 'Anton', sans-serif;
     color: #ebebeb;
     text-align: left;
     padding-top: 15px;
